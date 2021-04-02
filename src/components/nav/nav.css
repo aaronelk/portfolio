@@ -1,0 +1,68 @@
+.navbar {
+  padding-left: 22%;
+  padding-right: 22%;
+  box-sizing: border-box;
+}
+
+.navbar-mobile {
+  padding-left: 22%;
+  padding-right: 22%;
+  box-sizing: border-box;
+}
+
+.navbar-mobile .MuiButtonBase-root {
+  left: -12px;
+}
+
+.navbar-mobile .MuiSvgIcon-root {
+  font-size: 48px;
+}
+
+.navContainer {
+  width: 100%;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+
+.navItem {
+  color: black;
+  font-size: 18px;
+  font-family: Gilroy-Bold;
+  color: #828282;
+  cursor: pointer;
+}
+
+.navItem.selected {
+  color: black;
+}
+
+.navSeperator {
+  padding-top: 32px;
+  border-bottom: 2px solid black;
+  width: 100%;
+}
+
+@media screen and (min-width: 900px) {
+  .navbar {
+    display: block;
+  }
+
+  .navbar-mobile {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .navbar {
+    display: none;
+  }
+
+  .navbar-mobile {
+    display: block;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    padding-right: 82%;
+  }
+}

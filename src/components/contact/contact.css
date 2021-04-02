@@ -1,0 +1,52 @@
+.contactContainer {
+  background-color: #ffffff;
+  width: 100%;
+}
+
+.contactInner {
+  padding-left: 22%;
+  padding-right: 22%;
+  box-sizing: border-box;
+  padding-top: 48px;
+  padding-bottom: 48px;
+  text-align: center;
+}
+
+.contactTitle {
+  text-align: center;
+  font-size: 32px;
+  font-weight: bold;
+  padding-bottom: 32px;
+}
+
+.contactContent {
+  text-align: center;
+  font-size: 18px;
+  padding-bottom: 32px;
+}
+
+.contactItems {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.emailButton {
+  background-color: black !important;
+  border-radius: 25px !important;
+  color: white !important;
+  padding-left: 24px !important;
+  padding-right: 24px !important;
+  margin-bottom: 64px !important;
+}
+
+.contactIcons {
+  display: flex;
+  justify-content: center;
+}
+
+.contactIcon {
+  padding-left: 32px;
+  padding-right: 32px;
+  padding-bottom: 32px;
+}

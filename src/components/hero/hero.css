@@ -1,0 +1,74 @@
+.heroContainer {
+  padding-top: 20px;
+  width: 100%;
+  padding-left: 22%;
+  padding-right: 22%;
+  box-sizing: border-box;
+}
+
+.heroTopItem {
+  width: 33%;
+  display: inline-block;
+  position: relative;
+}
+
+.heroTopItem.name {
+  font-size: 48px;
+  font-family: Gilroy-Bold;
+}
+
+.heroTopItem.role {
+  text-align: center;
+}
+
+.heroTopItem.language {
+  position: relative;
+  height: 1px;
+}
+
+.languageChoice {
+  transform: rotate(-90deg);
+  position: absolute;
+  right: -31px;
+  bottom: 21px;
+  font-family: Gilroy-Bold;
+}
+
+.languageFR {
+  display: inline;
+  color: #828282;
+}
+
+.heroCicleImage {
+  padding-top: 64px;
+  padding-bottom: 64px;
+  text-align: center;
+}
+
+@media screen and (max-width: 1283px) {
+  .heroTopItem.name {
+    width: 100%;
+  }
+
+  .heroTopItem.role {
+    padding-top: 24px;
+    width: 100%;
+    text-align: left;
+  }
+
+  .heroTopItem.language {
+    width: 100%;
+    text-align: right;
+    bottom: 15px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .heroContainer {
+    padding-top: 48px;
+  }
+
+  .heroCicleImage img {
+    max-width: 100%;
+  }
+}
