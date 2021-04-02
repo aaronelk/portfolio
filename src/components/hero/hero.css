@@ -54,8 +54,8 @@
 }
 
 .heroCicleImage {
-  padding-top: 64px;
-  padding-bottom: 64px;
+  padding-top: 48px;
+  padding-bottom: 48px;
   text-align: center;
 }
 
@@ -73,7 +73,7 @@
   .heroTopItem.language {
     width: 100%;
     text-align: right;
-    bottom: 15px;
+    display: inherit;
   }
 }
 

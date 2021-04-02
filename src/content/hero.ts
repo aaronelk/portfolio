@@ -5,6 +5,6 @@ export const heroContent = {
   },
   fr: {
     myName: ["Aaron", "Elkeslassy"],
-    role: "UX | Designer UI Montréal",
+    role: "UX | UI designer Montréal",
   },
 };
