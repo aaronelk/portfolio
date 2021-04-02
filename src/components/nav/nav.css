@@ -5,8 +5,7 @@
 }
 
 .navbar-mobile {
-  padding-left: 22%;
-  padding-right: 22%;
+  padding-left: 5%;
   box-sizing: border-box;
   position: fixed;
 }
@@ -61,8 +60,7 @@
 
   .navbar-mobile {
     display: block;
-    right: 0px;
     top: 0px;
-    padding-right: 82%;
+    left: 0px;
   }
 }

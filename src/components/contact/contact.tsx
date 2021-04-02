@@ -1,13 +1,25 @@
 import "./contact.css";
-import { contactInfo } from "../../content/contact";
+import { contactContent } from "../../content/contact";
+import { useEffect, useState } from "react";
 
-export default function Contact() {
+interface ContactProps {
+  language: 'en' | 'fr'
+}
+
+export default function Contact(props: ContactProps) {
+
+  const [content, setContent] = useState(contactContent[props.language])
+
+  useEffect(() => {
+    setContent(contactContent[props.language])
+  }, [props.language])
+
   return (
     <div className="contactContainer">
       <div className="contactInner">
-        <div className="contactTitle">Contact Me</div>
+        <div className="contactTitle">{content.sectionTitle}</div>
         <div className="contactIcons">
-          {contactInfo.map(contact => {
+          {content.images.map(contact => {
             return (
               <a className="contactIcon" href={contact.url} target="_blank" rel="noreferrer">
                 <img src={contact.img} />
@@ -16,7 +28,7 @@ export default function Contact() {
           })}
         </div>
         <div className="contactFooter">
-          Like me on LinkedIn, Instagram, Dribble
+          {content.sectionFooter}
         </div>
       </div>
     </div>

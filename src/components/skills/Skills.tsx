@@ -1,16 +1,27 @@
 import "./skills.css";
-import { skills } from '../../content/skills'
+import { skillsContent } from '../../content/skills'
+import { useEffect, useState } from "react";
 
-export default function Skills() {
-  
+interface SkillsProps {
+  language: 'en' | 'fr'
+}
+
+
+export default function Skills(props: SkillsProps) {
+
+  const [content, setContent] = useState(skillsContent[props.language])
+
+  useEffect(() => {
+    setContent(skillsContent[props.language])
+  }, [props.language])
 
   return (
     <div className="skillsContainer">
       <div className="skillsInner">
-        <div className="titleSkills">Skills</div>
-        <div className="contentSkills">Programs I use</div>
+        <div className="titleSkills">{content.sectionTitle}</div>
+        <div className="contentSkills">{content.sectionContent}</div>
         <div className="skillItems">
-          {skills.map(skill => {
+          {content.skills.map(skill => {
             return (
               <div className="skillContainer">
                 <img src={skill.img} />

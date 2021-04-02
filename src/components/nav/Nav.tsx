@@ -2,18 +2,23 @@ import { Drawer, IconButton, List, ListItem } from "@material-ui/core";
 import MenuIcon from "@material-ui/icons/Menu";
 import { Fragment, useEffect, useState } from "react";
 import "./nav.css";
+import { navContent } from '../../content/nav'
 
-export default function Nav() {
-  const navItems = [
-    { name: "Home", classRef: "mainContainer" },
-    { name: "About", classRef: "aboutContainer" },
-    { name: "Skills", classRef: "skillsContainer" },
-    { name: "Projects", classRef: "projectsContainer" },
-    { name: "Contact", classRef: "contactContainer" },
-  ];
+interface NavProps {
+  language: 'en' | 'fr'
+}
+
+export default function Nav(props: NavProps) {
+
+  const [content, setContent] = useState(navContent[props.language])
+
+  useEffect(() => {
+    setContent(navContent[props.language])
+  }, [props.language])
+
 
   const [mobileNavOpen, setMobileNavOpen] = useState(false);
-  const [activeMenuItem, setActiveMenuItem] = useState(navItems[0].name)
+  const [activeMenuItem, setActiveMenuItem] = useState(content.menuItems[0].name)
 
   const scrollToDiv = (item: {name: string, classRef: string}) => {
     setMobileNavOpen(false);
@@ -25,7 +30,7 @@ export default function Nav() {
   };
 
   const onScroll = () => {
-    setActiveMenuItem(navItems[0].name)
+    setActiveMenuItem(content.menuItems[0].name)
   }
 
   useEffect(() => {
@@ -42,7 +47,7 @@ export default function Nav() {
     <Fragment>
       <div className="navbar">
         <div className="navContainer">
-          {navItems.map(item => {
+          {content.menuItems.map(item => {
             return (
               <div className={`navItem ${activeMenuItem === item.name ? 'selected' : 'inactive'}`} onClick={() => scrollToDiv(item)}>
                 {item.name}
@@ -58,7 +63,7 @@ export default function Nav() {
         </IconButton>
         <Drawer anchor="left" open={mobileNavOpen} onClose={() => setMobileNavOpen(false)}>
           <List>
-            {navItems.map(item => {
+            {content.menuItems.map(item => {
               return (
                 <ListItem className="navItem" onClick={() => scrollToDiv(item)}>
                   {" "}

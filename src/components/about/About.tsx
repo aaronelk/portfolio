@@ -1,13 +1,25 @@
 import "./about.css";
 import { aboutMeContent } from "../../content/about";
+import { useEffect, useState } from "react";
 
-export default function About() {
+interface AboutProps {
+  language: 'en' | 'fr'
+}
+
+export default function About(props: AboutProps) {
+
+  const [content, setContent] = useState(aboutMeContent[props.language])
+
+  useEffect(() => {
+    setContent(aboutMeContent[props.language])
+  }, [props.language])
+
   return (
     <div className="aboutContainer">
       <div className="aboutInner">
-        <div className="title"> About Me</div>
+        <div className="title">{content.sectionTitle}</div>
         <div className="content">
-          {aboutMeContent.map(content => {
+          {content.sectionContent.map(content => {
             return (
               <div>
                 {content} <br />

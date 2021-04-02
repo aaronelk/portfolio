@@ -1,12 +1,22 @@
 import "./projects.css";
-import { projects } from "../../content/projects";
+import { projectContent } from "../../content/projects";
 import { Project } from "./types";
-import { Fragment, useState } from "react";
+import { Fragment, useEffect, useState } from "react";
 import { Modal } from "@material-ui/core";
 
-export default function Projects() {
+interface ProjectProps {
+  language: 'en' | 'fr'
+}
+
+export default function Projects(props: ProjectProps) {
 
   const [modalState, setModalState] = useState({active: false, gifUrl: ''});
+
+  const [content, setContent] = useState(projectContent[props.language])
+
+  useEffect(() => {
+    setContent(projectContent[props.language])
+  }, [props.language])
 
 
   const runGifInModal = (project: Project) => {
@@ -19,9 +29,9 @@ export default function Projects() {
     <Fragment>
     <div className="projectsContainer">
       <div className="projectsInner">
-        <div className="projectsTitle">My Projects</div>
+        <div className="projectsTitle">{content.sectionTitle}</div>
         <div className="projectContent">
-          {projects.map(project => {
+          {content.projects.map(project => {
             return (
               <div className={`projectContainer ${project.size} ${project.gifUrl ? 'clickable' : ''}`} onClick={() => runGifInModal(project)}>
                 <img className="projectImage" src={project.image}/>

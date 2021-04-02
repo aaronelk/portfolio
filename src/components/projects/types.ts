@@ -1,6 +1,6 @@
 export interface Project {
   name: string;
   image: string;
-  size: "full" | "half";
+  size: string;
   gifUrl?: string;
 }
