@@ -31,6 +31,10 @@
   text-align: center;
 }
 
+.projectContainer:last-of-type {
+  padding-bottom: 0px;
+}
+
 .projectContainer.clickable {
   cursor: pointer;
 }
@@ -46,7 +50,6 @@
 .projectTitle {
   padding-top: 8px;
   font-size: 24px;
-  font-weight: bold;
 }
 
 .modalContainer {
@@ -64,10 +67,21 @@
 
 @media screen and (max-width: 1283px) {
   .projectContainer.full img {
-    max-width: 100%;
+    width: 100%;
   }
 
   .projectContainer.half img {
-    max-width: "none";
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .modalGif {
+    max-width: 90%;
+    max-height: 90%;
+  }
+
+  .projectContainer.half {
+    flex: 0 0 100%;
   }
 }

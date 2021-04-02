@@ -8,7 +8,7 @@ export default function Skills() {
     <div className="skillsContainer">
       <div className="skillsInner">
         <div className="titleSkills">Skills</div>
-        <div className="contentSkills">I’ve recently been working with...</div>
+        <div className="contentSkills">Programs I use</div>
         <div className="skillItems">
           {skills.map(skill => {
             return (

@@ -5,6 +5,7 @@ export default function Contact() {
   return (
     <div className="contactContainer">
       <div className="contactInner">
+        <div className="contactTitle">Contact Me</div>
         <div className="contactIcons">
           {contactInfo.map(contact => {
             return (

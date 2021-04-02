@@ -8,6 +8,7 @@
   padding-left: 22%;
   padding-right: 22%;
   box-sizing: border-box;
+  position: fixed;
 }
 
 .navbar-mobile .MuiButtonBase-root {
@@ -60,7 +61,6 @@
 
   .navbar-mobile {
     display: block;
-    position: absolute;
     right: 0px;
     top: 0px;
     padding-right: 82%;
