@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.4c2fd40f.chunk.css",
-    "main.js": "/portfolio/static/js/main.f7b79a38.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.f7b79a38.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.96edc916.chunk.css",
+    "main.js": "/portfolio/static/js/main.696e7708.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.696e7708.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.f3f94b3b.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.f3f94b3b.js.map",
     "static/js/2.145e223b.chunk.js": "/portfolio/static/js/2.145e223b.chunk.js",
     "static/js/2.145e223b.chunk.js.map": "/portfolio/static/js/2.145e223b.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "static/css/main.4c2fd40f.chunk.css.map": "/portfolio/static/css/main.4c2fd40f.chunk.css.map",
+    "static/css/main.96edc916.chunk.css.map": "/portfolio/static/css/main.96edc916.chunk.css.map",
     "static/js/2.145e223b.chunk.js.LICENSE.txt": "/portfolio/static/js/2.145e223b.chunk.js.LICENSE.txt",
     "static/media/index.css": "/portfolio/static/media/Gilroy-Medium.1b4da658.ttf",
     "static/media/JAZZGIFFINAL.bed395fb.gif": "/portfolio/static/media/JAZZGIFFINAL.bed395fb.gif",
@@ -16,19 +16,20 @@
     "static/media/ae.6518757e.svg": "/portfolio/static/media/ae.6518757e.svg",
     "static/media/dribble.3ad033bd.svg": "/portfolio/static/media/dribble.3ad033bd.svg",
     "static/media/figma.bef500ad.svg": "/portfolio/static/media/figma.bef500ad.svg",
-    "static/media/florida-natural.a4326875.svg": "/portfolio/static/media/florida-natural.a4326875.svg",
+    "static/media/florida-natural.7a6625f8.svg": "/portfolio/static/media/florida-natural.7a6625f8.svg",
+    "static/media/garden.d88b954d.png": "/portfolio/static/media/garden.d88b954d.png",
     "static/media/heroimage.9cefe6b7.svg": "/portfolio/static/media/heroimage.9cefe6b7.svg",
     "static/media/illu.42d021c6.svg": "/portfolio/static/media/illu.42d021c6.svg",
     "static/media/instagram.5d610827.svg": "/portfolio/static/media/instagram.5d610827.svg",
-    "static/media/jazztown.a384ebe2.svg": "/portfolio/static/media/jazztown.a384ebe2.svg",
+    "static/media/jazztown.39eb8b08.svg": "/portfolio/static/media/jazztown.39eb8b08.svg",
     "static/media/linkedin.c8e66468.svg": "/portfolio/static/media/linkedin.c8e66468.svg",
     "static/media/ps.5175f318.svg": "/portfolio/static/media/ps.5175f318.svg",
-    "static/media/teatime.e9a9a490.svg": "/portfolio/static/media/teatime.e9a9a490.svg"
+    "static/media/teatime.221b4c79.svg": "/portfolio/static/media/teatime.221b4c79.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.f3f94b3b.js",
     "static/js/2.145e223b.chunk.js",
-    "static/css/main.4c2fd40f.chunk.css",
-    "static/js/main.f7b79a38.chunk.js"
+    "static/css/main.96edc916.chunk.css",
+    "static/js/main.696e7708.chunk.js"
   ]
 }
