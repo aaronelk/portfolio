@@ -1,10 +1,10 @@
 export const heroContent = {
   en: {
     myName: ["Aaron", "Elkeslassy"],
-    role: "UX | UI designer Montreal",
+    role: "UX | UI designer, Montreal",
   },
   fr: {
     myName: ["Aaron", "Elkeslassy"],
-    role: "UX | UI designer Montréal",
+    role: "UX | UI designer, Montréal",
   },
 };

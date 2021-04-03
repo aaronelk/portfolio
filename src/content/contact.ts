@@ -8,7 +8,7 @@ export const contactContent = {
     sectionFooter: "Like me on LinkedIn, Instagram, Dribble",
     images: [
       { img: LinkedInImg, url: "http://linkedin.com" },
-      { img: InstagramImg, url: "https://instagram.com" },
+      { img: InstagramImg, url: "https://www.instagram.com/aaronelkeslassy/" },
       { img: DribbleImg, url: "https://dribbble.com/" },
     ],
   },
@@ -17,7 +17,7 @@ export const contactContent = {
     sectionFooter: "Aimez-moi sur LinkedIn, Instagram, Dribble",
     images: [
       { img: LinkedInImg, url: "http://linkedin.com" },
-      { img: InstagramImg, url: "https://instagram.com" },
+      { img: InstagramImg, url: "https://www.instagram.com/aaronelkeslassy/" },
       { img: DribbleImg, url: "https://dribbble.com/" },
     ],
   },

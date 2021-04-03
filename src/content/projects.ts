@@ -4,23 +4,23 @@ import FloridaNaturalImg from "./images/florida-natural.svg";
 import JazztownImg from "./images/jazztown.svg";
 import TeatimeImg from "./images/teatime.svg";
 
-const floridaNaturalGif = "https://imgur.com/SpMeABR.gif";
-const jazzTownGif = "https://imgur.com/xAzPSbh.gif";
+import FloridaNaturalGif from "./images/ORANGESGIFFINAL.gif";
+import JazztownGif from "./images/JAZZGIFFINAL.gif";
 
 export const projectContent = {
   en: {
     sectionTitle: "My Projects",
     projects: [
-      { name: "Florida's Natural", image: FloridaNaturalImg, size: "full", gifUrl: floridaNaturalGif },
-      { name: "Jazztown", image: JazztownImg, size: "half", gifUrl: jazzTownGif },
+      { name: "Florida's Natural", image: FloridaNaturalImg, size: "full", gifUrl: FloridaNaturalGif },
+      { name: "Jazztown", image: JazztownImg, size: "half", gifUrl: JazztownGif },
       { name: "TeaTime", image: TeatimeImg, size: "half" },
     ],
   },
   fr: {
-    sectionTitle: "Mes Projectiz",
+    sectionTitle: "Projets",
     projects: [
-      { name: "Florida's Natural", image: FloridaNaturalImg, size: "full", gifUrl: floridaNaturalGif },
-      { name: "Jazztown", image: JazztownImg, size: "half", gifUrl: jazzTownGif },
+      { name: "Florida's Natural", image: FloridaNaturalImg, size: "full", gifUrl: FloridaNaturalGif },
+      { name: "Jazztown", image: JazztownImg, size: "half", gifUrl: JazztownGif },
       { name: "TeaTime", image: TeatimeImg, size: "half" },
     ],
   },

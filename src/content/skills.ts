@@ -6,7 +6,7 @@ import FigmaImg from "./images/figma.svg";
 export const skillsContent = {
   en: {
     sectionTitle: "Skills",
-    sectionContent: "Programs I Use",
+    sectionContent: "Programs I use...",
     skills: [
       { name: `Adobe \n Photoshop`, img: PhotoshopImg },
       { name: `Adobe \n Illustrator`, img: IllustratorImg },
@@ -15,8 +15,8 @@ export const skillsContent = {
     ],
   },
   fr: {
-    sectionTitle: "French",
-    sectionContent: "Programs I Use",
+    sectionTitle: "Compétences",
+    sectionContent: "Voici les logiciels que j'utulise...",
     skills: [
       { name: `Adobe \n Photoshop`, img: PhotoshopImg },
       { name: `Adobe \n Illustrator`, img: IllustratorImg },

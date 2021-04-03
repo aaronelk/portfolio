@@ -10,9 +10,9 @@ export const navContent = {
   },
   fr: {
     menuItems: [
-      { name: "Maison", classRef: "mainContainer" },
+      { name: "Acceuil", classRef: "mainContainer" },
       { name: "Moi", classRef: "aboutContainer" },
-      { name: "Competences", classRef: "skillsContainer" },
+      { name: "Compétences", classRef: "skillsContainer" },
       { name: "Projets", classRef: "projectsContainer" },
       { name: "Contact", classRef: "contactContainer" },
     ],
