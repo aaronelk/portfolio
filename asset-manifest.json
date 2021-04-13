@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.96edc916.chunk.css",
-    "main.js": "/portfolio/static/js/main.696e7708.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.696e7708.chunk.js.map",
+    "main.js": "/portfolio/static/js/main.2d3b41cb.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.2d3b41cb.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.f3f94b3b.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.f3f94b3b.js.map",
     "static/js/2.145e223b.chunk.js": "/portfolio/static/js/2.145e223b.chunk.js",
@@ -13,6 +13,7 @@
     "static/media/index.css": "/portfolio/static/media/Gilroy-Medium.1b4da658.ttf",
     "static/media/JAZZGIFFINAL.bed395fb.gif": "/portfolio/static/media/JAZZGIFFINAL.bed395fb.gif",
     "static/media/ORANGESGIFFINAL.678ce330.gif": "/portfolio/static/media/ORANGESGIFFINAL.678ce330.gif",
+    "static/media/SpaceX.bf285b31.svg": "/portfolio/static/media/SpaceX.bf285b31.svg",
     "static/media/ae.6518757e.svg": "/portfolio/static/media/ae.6518757e.svg",
     "static/media/dribble.3ad033bd.svg": "/portfolio/static/media/dribble.3ad033bd.svg",
     "static/media/figma.bef500ad.svg": "/portfolio/static/media/figma.bef500ad.svg",
@@ -30,6 +31,6 @@
     "static/js/runtime-main.f3f94b3b.js",
     "static/js/2.145e223b.chunk.js",
     "static/css/main.96edc916.chunk.css",
-    "static/js/main.696e7708.chunk.js"
+    "static/js/main.2d3b41cb.chunk.js"
   ]
 }
