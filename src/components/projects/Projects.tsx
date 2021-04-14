@@ -10,7 +10,7 @@ interface ProjectProps {
 
 export default function Projects(props: ProjectProps) {
 
-  const [modalState, setModalState] = useState({active: false, gifUrl: ''});
+  const [modalState, setModalState] = useState({active: false, video: ''});
 
   const [content, setContent] = useState(projectContent[props.language])
 
@@ -20,8 +20,8 @@ export default function Projects(props: ProjectProps) {
 
 
   const runGifInModal = (project: Project) => {
-    if (project.gifUrl) {
-      setModalState({active: true, gifUrl: project.gifUrl})
+    if (project.video) {
+      setModalState({active: true, video: project.video})
     }
   }
 
@@ -33,7 +33,7 @@ export default function Projects(props: ProjectProps) {
         <div className="projectContent">
           {content.projects.map(project => {
             return (
-              <div className={`projectContainer ${project.size} ${project.gifUrl ? 'clickable' : ''}`} onClick={() => runGifInModal(project)}>
+              <div className={`projectContainer ${project.size} ${project.video ? 'clickable' : ''}`} onClick={() => runGifInModal(project)}>
                 <img className="projectImage" src={project.image}/>
                 <div className="projectTitle">{project.name}</div>
               </div>
@@ -44,11 +44,13 @@ export default function Projects(props: ProjectProps) {
     </div>
     <Modal
       open={modalState.active}
-      onClose={() => setModalState({active: false, gifUrl: ''})}
-      onClick={() => setModalState({active: false, gifUrl: ''})}
+      onClose={() => setModalState({active: false, video: ''})}
+      onClick={() => setModalState({active: false, video: ''})}
       >
         <div className="modalContainer">
-          <img  className="modalGif" src={modalState.gifUrl}/>
+          <video autoPlay={true}>
+            <source src={modalState.video}></source>
+          </video>
         </div>
       </Modal>
     </Fragment>
