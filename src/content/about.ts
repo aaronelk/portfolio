@@ -8,7 +8,7 @@ export const aboutMeContent = {
     ],
   },
   fr: {
-    sectionTitle: "À propos de moi",
+    sectionTitle: "À Propos de Moi",
     sectionContent: [
       "Bonjour, je suis Aaron - Designer UX / UI, graphiste et illustrateur de Montréal. Je m'intéresse au design et à tout ce qui y est associé.",
       "",

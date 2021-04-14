@@ -43,6 +43,10 @@
   flex: 0 0 100%;
 }
 
+.projectContainer.full img {
+  width:100%;
+}
+
 .projectContainer.half {
   flex: 0 0 50%;
 }
