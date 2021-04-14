@@ -1,7 +1,7 @@
 {
   "name": "portfolio-aaron",
   "version": "0.1.0",
-  "homepage": "https://aaronelk.github.io/portfolio/",
+  "homepage": "https://aaronelk.com/",
   "private": true,
   "dependencies": {
     "@material-ui/core": "^4.11.3",
