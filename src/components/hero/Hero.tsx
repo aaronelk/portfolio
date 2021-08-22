@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import "./hero.css";
-import HeroCircle from "./heroimage.svg";
+import HeroCircle from "./RotatingProfile.mp4";
 import { heroContent } from '../../content/hero'
 
 interface HeroProps {
@@ -40,7 +40,7 @@ export default function Hero(props: HeroProps) {
         </div>
       </div>
       <div className="heroCicleImage">
-        <img src={HeroCircle} />
+        <video autoPlay muted src={HeroCircle} />
       </div>
     </div>
   );

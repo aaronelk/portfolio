@@ -2,17 +2,17 @@ export const aboutMeContent = {
   en: {
     sectionTitle: "About Me",
     sectionContent: [
-      "Hi, I'm Aaron – UX/UI designer, Graphic Artist & Illustrator from Montreal. I'm interested in design and everything associated with it.",
+      "Hi, I'm Aaron – UX/UI designer, Graphic Artist & Illustrator from Montreal. I'm captivated by innovative and out-of-the-box design.",
       "",
-      `Always ready and commited to implement excellent projects with wonderful people`,
+      `Always looking foreward to adding my personal flair onto quality projects.`,
     ],
   },
   fr: {
     sectionTitle: "À Propos de Moi",
     sectionContent: [
-      "Bonjour, je suis Aaron - Designer UX / UI, graphiste et illustrateur de Montréal. Je m'intéresse au design et à tout ce qui y est associé.",
+      "Bonjour, je suis Aaron - Designer UX / UI, graphiste et illustrateur de Montréal. Je suis captivé par le design innovant et créatif.",
       "",
-      `Toujours prêt et engagé à mettre en œuvre d'excellents projets avec des personnes formidables`,
+      `Toujours prêt d'ajouter mon flair personnel à des projets de qualité.`,
     ],
   },
 };
