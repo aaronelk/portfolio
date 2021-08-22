@@ -58,6 +58,10 @@
   color: black;
 }
 
+.CircleSpin{
+  max-width: 100%;
+}
+
 .heroCicleImage {
   padding-top: 48px;
   padding-bottom: 48px;

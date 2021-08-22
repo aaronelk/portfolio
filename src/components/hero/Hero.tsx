@@ -40,7 +40,7 @@ export default function Hero(props: HeroProps) {
         </div>
       </div>
       <div className="heroCicleImage">
-        <video autoPlay muted src={HeroCircle} />
+        <video className="CircleSpin" autoPlay muted src={HeroCircle} />
       </div>
     </div>
   );
