@@ -29,6 +29,7 @@ export default function Contact(props: ContactProps) {
         </div>
         <div className="contactFooter">
           {content.sectionFooter}
+          <p><b>aaron.elkeslassy@gmail.com</b></p>
         </div>
       </div>
     </div>
