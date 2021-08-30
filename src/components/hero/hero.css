@@ -68,6 +68,7 @@
   text-align: center;
   /*position: relative;*/
   right: 70px;
+  size: 50%;
 }
 
 @media screen and (max-width: 1283px) {

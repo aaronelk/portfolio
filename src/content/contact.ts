@@ -5,20 +5,20 @@ import LinkedInImg from "./images/linkedin.svg";
 export const contactContent = {
   en: {
     sectionTitle: "Contact Me",
-    sectionFooter: "Like me on LinkedIn, Instagram, Dribble",
+    sectionFooter: "Find me on LinkedIn, Instagram, Dribble",
     images: [
-      { img: LinkedInImg, url: "http://linkedin.com" },
+      { img: LinkedInImg, url: "https://www.linkedin.com/in/aaron-elkeslassy-88628b4b" },
       { img: InstagramImg, url: "https://www.instagram.com/aaronelkeslassy/" },
-      { img: DribbleImg, url: "https://dribbble.com/" },
+      { img: DribbleImg, url: "https://dribbble.com/ayronlongjon/shots" },
     ],
   },
   fr: {
     sectionTitle: "Contactez moi",
-    sectionFooter: "Aimez-moi sur LinkedIn, Instagram, Dribble",
+    sectionFooter: "Trouvez moi sur LinkedIn, Instagram, Dribble",
     images: [
-      { img: LinkedInImg, url: "http://linkedin.com" },
+      { img: LinkedInImg, url: "https://www.linkedin.com/in/aaron-elkeslassy-88628b4b" },
       { img: InstagramImg, url: "https://www.instagram.com/aaronelkeslassy/" },
-      { img: DribbleImg, url: "https://dribbble.com/" },
+      { img: DribbleImg, url: "https://dribbble.com/ayronlongjon/shots" },
     ],
   },
 };
