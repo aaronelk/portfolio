@@ -48,7 +48,7 @@ export default function Projects(props: ProjectProps) {
       onClick={() => setModalState({active: false, video: ''})}
       >
         <div className="modalContainer">
-          <video autoPlay={true}>
+          <video autoPlay={true} loop>
             <source src={modalState.video}></source>
           </video>
         </div>

@@ -7,6 +7,8 @@ import SpaceImg from "./images/SpaceX.svg";
 import FloridaVideo from "./images/florida.mp4";
 import JazzVideo from "./images/jazz.mp4";
 import SpaceVideo from "./images/space.mp4";
+import GardenVideo from "./images/GardenVideo.mp4";
+
 
 export const projectContent = {
   en: {
@@ -16,7 +18,7 @@ export const projectContent = {
       { name: "Jazztown", image: JazztownImg, size: "half", video: JazzVideo },
       { name: "TeaTime", image: TeatimeImg, size: "half" },
       { name: "Florida's Natural", image: FloridaNaturalImg, size: "full", video: FloridaVideo },
-      { name: "Auto-Garden", image: GardenImg, size: "full" },
+      { name: "Auto-Garden", image: GardenImg, size: "full", video: GardenVideo},
     ],
   },
   fr: {
@@ -26,7 +28,7 @@ export const projectContent = {
       { name: "Jazztown", image: JazztownImg, size: "half", video: JazzVideo },
       { name: "TeaTime", image: TeatimeImg, size: "half" },
       { name: "Florida's Natural", image: FloridaNaturalImg, size: "full", video: FloridaVideo},
-      { name: "Auto-Garden", image: GardenImg, size: "full" },
+      { name: "Auto-Garden", image: GardenImg, size: "full", video: GardenVideo},
     ],
   },
 };
