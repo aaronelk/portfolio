@@ -16,8 +16,8 @@ export const projectContent = {
     projects: [
       { name: "SpaceX", image: SpaceImg, size: "full", video: SpaceVideo },
       { name: "Jazztown", image: JazztownImg, size: "half", video: JazzVideo },
-      { name: "TeaTime", image: TeatimeImg, size: "half" },
-      { name: "Florida's Natural", image: FloridaNaturalImg, size: "full", video: FloridaVideo },
+      { name: "TeaTime", image: TeatimeImg, size: "half" },/*
+      { name: "Florida's Natural", image: FloridaNaturalImg, size: "full", video: FloridaVideo },*/
       { name: "Auto-Garden", image: GardenImg, size: "full", video: GardenVideo},
     ],
   },
@@ -26,8 +26,8 @@ export const projectContent = {
     projects: [
       { name: "SpaceX", image: SpaceImg, size: "full", video: SpaceVideo },
       { name: "Jazztown", image: JazztownImg, size: "half", video: JazzVideo },
-      { name: "TeaTime", image: TeatimeImg, size: "half" },
-      { name: "Florida's Natural", image: FloridaNaturalImg, size: "full", video: FloridaVideo},
+      { name: "TeaTime", image: TeatimeImg, size: "half" },/*
+      { name: "Florida's Natural", image: FloridaNaturalImg, size: "full", video: FloridaVideo},*/
       { name: "Auto-Garden", image: GardenImg, size: "full", video: GardenVideo},
     ],
   },
