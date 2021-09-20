@@ -4,7 +4,7 @@ export const aboutMeContent = {
     sectionContent: [
       "Hi, I'm Aaron – UX/UI designer, Graphic Artist & Illustrator from Montreal. I'm captivated by innovative and out-of-the-box design.",
       "",
-      `Always looking foreward to adding my personal flair onto quality projects.`,
+      `Always looking forward to adding my personal flair onto projects.`,
     ],
   },
   fr: {
