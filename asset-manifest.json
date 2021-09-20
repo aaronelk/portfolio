@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.c7e1ae16.chunk.css",
-    "main.js": "/static/js/main.355e7be1.chunk.js",
-    "main.js.map": "/static/js/main.355e7be1.chunk.js.map",
+    "main.js": "/static/js/main.3e460767.chunk.js",
+    "main.js.map": "/static/js/main.3e460767.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.57604b84.js",
     "runtime-main.js.map": "/static/js/runtime-main.57604b84.js.map",
     "static/js/2.145e223b.chunk.js": "/static/js/2.145e223b.chunk.js",
@@ -14,8 +14,11 @@
     "static/media/index.css": "/static/media/Gilroy-Medium.1b4da658.ttf",
     "static/media/RotatingProfile.8d4d4f4a.mp4": "/static/media/RotatingProfile.8d4d4f4a.mp4",
     "static/media/SpaceX.3ca29f14.svg": "/static/media/SpaceX.3ca29f14.svg",
+    "static/media/TeaTimeFinal.304fe36f.mp4": "/static/media/TeaTimeFinal.304fe36f.mp4",
     "static/media/ae.6518757e.svg": "/static/media/ae.6518757e.svg",
     "static/media/figma.bef500ad.svg": "/static/media/figma.bef500ad.svg",
+    "static/media/florida-natural.7a6625f8.svg": "/static/media/florida-natural.7a6625f8.svg",
+    "static/media/florida.5990a5cb.mp4": "/static/media/florida.5990a5cb.mp4",
     "static/media/garden.d88b954d.png": "/static/media/garden.d88b954d.png",
     "static/media/illu.42d021c6.svg": "/static/media/illu.42d021c6.svg",
     "static/media/instagram.5d610827.svg": "/static/media/instagram.5d610827.svg",
@@ -30,6 +33,6 @@
     "static/js/runtime-main.57604b84.js",
     "static/js/2.145e223b.chunk.js",
     "static/css/main.c7e1ae16.chunk.css",
-    "static/js/main.355e7be1.chunk.js"
+    "static/js/main.3e460767.chunk.js"
   ]
 }
