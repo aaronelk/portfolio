@@ -8,6 +8,8 @@ import FloridaVideo from "./images/florida.mp4";
 import JazzVideo from "./images/jazz.mp4";
 import SpaceVideo from "./images/space.mp4";
 import GardenVideo from "./images/GardenVideo.mp4";
+import TeaTimeVideo from "./images/TeaTimeFinal.mp4";
+
 
 
 export const projectContent = {
@@ -16,8 +18,8 @@ export const projectContent = {
     projects: [
       { name: "SpaceX", image: SpaceImg, size: "full", video: SpaceVideo },
       { name: "Jazztown", image: JazztownImg, size: "half", video: JazzVideo },
-      { name: "TeaTime", image: TeatimeImg, size: "half" },/*
-      { name: "Florida's Natural", image: FloridaNaturalImg, size: "full", video: FloridaVideo },*/
+      { name: "TeaTime", image: TeatimeImg, size: "half", video: TeaTimeVideo},
+      { name: "Florida's Natural", image: FloridaNaturalImg, size: "full", video: FloridaVideo },
       { name: "Auto-Garden", image: GardenImg, size: "full", video: GardenVideo},
     ],
   },
@@ -26,8 +28,8 @@ export const projectContent = {
     projects: [
       { name: "SpaceX", image: SpaceImg, size: "full", video: SpaceVideo },
       { name: "Jazztown", image: JazztownImg, size: "half", video: JazzVideo },
-      { name: "TeaTime", image: TeatimeImg, size: "half" },/*
-      { name: "Florida's Natural", image: FloridaNaturalImg, size: "full", video: FloridaVideo},*/
+      { name: "TeaTime", image: TeatimeImg, size: "half", video: TeaTimeVideo},
+      { name: "Florida's Natural", image: FloridaNaturalImg, size: "full", video: FloridaVideo},
       { name: "Auto-Garden", image: GardenImg, size: "full", video: GardenVideo},
     ],
   },
