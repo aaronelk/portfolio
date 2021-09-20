@@ -30,7 +30,7 @@ export const projectContent = {
       { name: "TeaTime", image: TeatimeImg, size: "half", video: TeaTimeVideo},
       { name: "Jazztown", image: JazztownImg, size: "half", video: JazzVideo },
       { name: "Florida's Natural", image: FloridaNaturalImg, size: "full", video: FloridaVideo},
-      { name: "Auto-Garden", image: GardenImg, size: "full", video: GardenVideo},
+      { name: "Auto-Garden", image: GardenImg, size: "full", video: GardenVideo},/**/
     ],
   },
 };
