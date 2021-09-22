@@ -16,9 +16,9 @@ export const projectContent = {
   en: {
     sectionTitle: "My Projects",
     projects: [
-      { name: "SpaceX", image: SpaceImg, size: "full", video: SpaceVideo },
       { name: "TeaTime", image: TeatimeImg, size: "half", video: TeaTimeVideo},
       { name: "Jazztown", image: JazztownImg, size: "half", video: JazzVideo },
+      { name: "SpaceX", image: SpaceImg, size: "full", video: SpaceVideo },
       { name: "Florida's Natural", image: FloridaNaturalImg, size: "full", video: FloridaVideo },
       { name: "Auto-Garden", image: GardenImg, size: "full", video: GardenVideo},
     ],
@@ -26,9 +26,9 @@ export const projectContent = {
   fr: {
     sectionTitle: "Projets",
     projects: [
-      { name: "SpaceX", image: SpaceImg, size: "full", video: SpaceVideo },
       { name: "TeaTime", image: TeatimeImg, size: "half", video: TeaTimeVideo},
       { name: "Jazztown", image: JazztownImg, size: "half", video: JazzVideo },
+      { name: "SpaceX", image: SpaceImg, size: "full", video: SpaceVideo },
       { name: "Florida's Natural", image: FloridaNaturalImg, size: "full", video: FloridaVideo},
       { name: "Auto-Garden", image: GardenImg, size: "full", video: GardenVideo},/**/
     ],
